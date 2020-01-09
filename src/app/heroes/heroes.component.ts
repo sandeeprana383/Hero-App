@@ -13,10 +13,12 @@ export class HeroesComponent implements OnInit {
   constructor(private heroService: HeroService) {}
 
   ngOnInit() {
+    debugger
     this.getHeroes();
   }
 
   getHeroes(): void {
+    debugger
     this.heroService.getHeroes().subscribe(heroes => (this.heroes = heroes));
   }
 

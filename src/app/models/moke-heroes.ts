@@ -3,7 +3,7 @@ import { Hero } from "./hero";
 export const HEROES: Hero[] = [
   { id: 11, name: "Dr.Amit" },
   { id: 12, name: "Er.Abhilash" },
-  { id: 13, name: "Bombasto" },
+  { id: 13, name: "Anurag" },
   { id: 14, name: "Celeritas" },
   { id: 15, name: "Magneta" },
   { id: 16, name: "RubberMan" },
